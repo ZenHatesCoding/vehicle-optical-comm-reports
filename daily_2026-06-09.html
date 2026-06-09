@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>车载光通信日报 · 2026年6月9日 · 周二</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #0d1117; color: #e6edf3; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; }
+header { padding: 24px 0; border-bottom: 1px solid #21262d; margin-bottom: 24px; }
+header h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+header .sub { color: #8b949e; font-size: 14px; }
+.stats { display: flex; gap: 24px; font-size: 14px; color: #8b949e; margin-top: 16px; flex-wrap: wrap; }
+.stat { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 18px; }
+.stat span { color: #58a6ff; font-weight: 700; font-size: 20px; margin-right: 4px; }
+.stat.std span { color: #ffd43b; }
+.stat.patent span { color: #d2a8ff; }
+h2 { font-size: 16px; color: #e6edf3; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 0; margin-bottom: 20px; overflow: hidden; }
+.card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: #21262d; }
+.card-body { padding: 16px 20px 18px; }
+.card-meta { font-size: 12px; color: #8b949e; margin-bottom: 8px; }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
+.card h3 a { color: #58a6ff; text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.card p { font-size: 14px; color: #c9d1d9; line-height: 1.6; margin-bottom: 8px; }
+.card .source { color: #6e7681; font-size: 12px; margin-top: 4px; }
+.tech-block { background: #0d1117; border-radius: 8px; padding: 12px 14px; margin-top: 10px; font-size: 13px; line-height: 1.7; }
+.tech-block .row { margin-bottom: 4px; }
+.tech-block .row:last-child { margin-bottom: 0; }
+.tech { color: #79c0ff; }
+.method { color: #7ee787; }
+.tradeoff { color: #d2a8ff; }
+.highlight { color: #ffa657; }
+.std-status { display: inline-block; padding: 1px 6px; border-radius: 4px; background: #1f6f37; color: #fff; font-size: 11px; font-weight: 600; }
+code { background: #21262d; padding: 1px 6px; border-radius: 4px; color: #ffd43b; font-family: 'Cascadia Code', monospace; font-size: 12px; }
+footer { text-align: center; padding: 32px 0; color: #6e7681; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>🚗 车载光通信日报</h1>
+  <div class="sub">2026年6月9日 · 周二 · 覆盖车载以太网 / 车载高速 SerDes / 智能驾驶高清摄像头回传 / 车载 PON / 通信供电一体化 + 标准动态 + 专利跟踪</div>
+  <div class="stats">
+    <div class="stat">📰 <span>6</span> 条行业新闻</div>
+    <div class="stat std">📋 <span>4</span> 条标准动态</div>
+    <div class="stat patent">🔬 <span>0</span> 条专利</div>
+  </div>
+</header>
+
+<section>
+<h2>📰 行业新闻</h2>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_00.jpg" alt="比亚迪发布中国首款4nm制程智驾芯片 布局高等级自动驾驶" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[雷峰网 · BYD] 1级信源 · cn 🔥</div>
+    <h3><a href="https://www.leiphone.com/category/transportation/7dY2VaaFzmB8aCxi.html" target="_blank">比亚迪发布中国首款4nm制程智驾芯片 布局高等级自动驾驶</a></h3>
+    <p style="color:#ccc;">比亚迪发布业内首款4nm制程车载智能驾驶芯片，董事长王传福表示：电动化上半场看电池，智能化下半场看芯片。新芯片集成 NPU + DSP + MCU，对标高通 8295 / 英伟达 Orin 性能，瞄准 L3+ 高阶自动驾驶方案。</p><p style="color:#8b949e;font-size:13px;">💡 高算力智驾 SoC 直接拉高**车载 SerDes 与高速摄像头回传**的需求——单 SoC 接入8MP 摄像头数从4 路升至8 路，原 GMSL/FPD-Link 铜缆链路在 6Gbps+ 速率下逼近极限。比亚迪此举加速车载光通信 PHY（Marvell 802.3ch/cy/cz）在国产车型上的渗透节奏。</p>
+    <div class="source">来源：雷峰网</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_01.jpg" alt="Marvell Teralynx T100 — 业内首款 102.4 Tbps 交换机芯片" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[Marvell Investor · Marvell] 1级信源 · en</div>
+    <h3><a href="https://investor.marvell.com/news-events/press-releases/detail/1024/marvell-announces-availability-of-industrys-first-1024-tbps-switch-purpose-built-for-ai-and-cloud" target="_blank">Marvell Teralynx T100 — 业内首款 102.4 Tbps 交换机芯片</a></h3>
+    <p style="color:#ccc;">Marvell 发布业内首款 102.4 Tbps 交换芯片 Teralynx T100，单片 3nm 工艺，典型功耗低于1000W（比竞品低 25%），专用于 AI 数据中心 scale-up 网络架构，集成 260 lane PCIe 6.0 接口。</p><p style="color:#8b949e;font-size:13px;">💡 Teralynx T100 的 102.4T + 3nm 制程**间接推动车载高速光 SerDes 演进**——同样的先进制程工艺 + 高 radix 交换架构未来将下沉到车载中央计算（zonal E/E 架构）。Marvell 同时是车载以太网 802.3ch/cy PHY 主要供应商，T100 是其向数据中心光互连扩张的旗舰。</p>
+    <div class="source">来源：Marvell Investor</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_02.jpg" alt="Marvell 收购 Polariton Technologies — 光互连性能 scale 至 3.2T" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[Marvell Investor · Marvell] 1级信源 · en</div>
+    <h3><a href="https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t" target="_blank">Marvell 收购 Polariton Technologies — 光互连性能 scale 至 3.2T</a></h3>
+    <p style="color:#ccc;">Marvell 宣布收购瑞士 Polariton Technologies，将等离激元（plasmonics）调制技术整合到下一代相干光和 DCI 光互连中，目标将光互连性能扩展到 3.2Tbps+，覆盖 ZR/ZR+ 应用，集成高密度超快光信号调制。</p><p style="color:#8b949e;font-size:13px;">💡 Polariton 等离激元技术是**车载光通信潜在颠覆**——其超紧凑光调制器尺寸比传统 InP 调制器小10 倍以上、能耗低 50%，未来可能下沉到车载 PON 和 802.3cz 光 PHY 方案，挑战 Coherent / Lumentum 在车规模块市场的地位。Marvell 此举是车载光供应链整合的关键信号。</p>
+    <div class="source">来源：Marvell Investor</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_03.jpg" alt="NVIDIA 与 Marvell 战略合作 — NVLink Fusion + 20 亿美元投资" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[Marvell Investor · NVIDIA + Marvell] 1级信源 · en</div>
+    <h3><a href="https://investor.marvell.com/news-events/press-releases/detail/1019/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion" target="_blank">NVIDIA 与 Marvell 战略合作 — NVLink Fusion + 20 亿美元投资</a></h3>
+    <p style="color:#ccc;">NVIDIA 与 Marvell 达成战略合作，Marvell 通过 NVLink Fusion 接入 NVIDIA AI 工厂与 AI-RAN 生态；NVIDIA 同时向 Marvell 投资 20 亿美元。Marvell 成为 NVIDIA AI 工厂 scale-up 网络的关键光互连伙伴。</p><p style="color:#8b949e;font-size:13px;">💡 NVIDIA + Marvell 联盟**意味着车载光通信被 NVIDIA Drive 平台**"打包"——Marvell 的车载以太网 PHY（802.3ch/cy/cz）+ 光模块能力将作为 NVIDIA Drive Thor / Orin 平台的**官方光链路选项**。20 亿美元投资强化 Marvell 在车载光 PHY 市场的研发投入和定价话语权。</p>
+    <div class="source">来源：Marvell Investor</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_04.jpg" alt="Marvell 与 Lumentum 联合演示光路交换（OCS）— AI scale-up 基础设施" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[Marvell Investor · Marvell + Lumentum] 1级信源 · en</div>
+    <h3><a href="https://investor.marvell.com/news-events/press-releases/detail/1015/marvell-and-lumentum-to-demonstrate-optical-circuit-switching-for-next-generation-ai-scale-up-infrastructure" target="_blank">Marvell 与 Lumentum 联合演示光路交换（OCS）— AI scale-up 基础设施</a></h3>
+    <p style="color:#ccc;">Marvell 与 Lumentum 在 OFC 2026 联合演示基于光路交换（OCS）的 AI scale-up 网络架构，OCS 在端点间提供直连光路径，替代传统电交换机，支持高信号完整性、低时延、高带宽的 AI 训练集群组网。</p><p style="color:#8b949e;font-size:13px;">💡 OCS 在 AI 数据中心的成熟**预示车载光交换可能性**——未来 zonal 架构的中央计算 + 区域控制器（zone controller）之间，可能用光路交换替代电包交换，简化线束。Marvell 在 OCS + Lumentum 在光开关模块的合作，是车载光网络演进的技术前哨。</p>
+    <div class="source">来源：Marvell Investor</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/news_items_v2_05.jpg" alt="禾赛佀新泉：无人配送行业提速 2026 年出货数十万颗激光雷达" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">[雷峰网 · Hesai] 1级信源 · cn</div>
+    <h3><a href="https://www.leiphone.com/banner/homepageUrl/id/3432" target="_blank">禾赛佀新泉：无人配送行业提速 2026 年出货数十万颗激光雷达</a></h3>
+    <p style="color:#ccc;">禾赛科技机器人感知业务高级总监佀新泉在 L4十人谈中透露：2026 年禾赛在无人配送板块要出货数十万颗激光雷达，瞄准无人配送从万台向十万台的规模化拐点，机械式激光雷达仍是主力，但价格是核心约束。</p><p style="color:#8b949e;font-size:13px;">💡 禾赛激光雷达**单机数据率 100Gbps+**（128 线机械式），单台车需要光链路把扫描头数据实时回传到中央计算。当前主流是同轴电缆，但线束振动 + 1m+ 距离衰减严重——**车载光旋转关节 + 嵌入式光模块**已是禾赛内部路线图选项，本期 2026 上半年有相关专利动向（用户可在专利模块独立追踪）。</p>
+    <div class="source">来源：雷峰网</div>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>📋 标准动态</h2>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/standards_items_00.jpg" alt="IEEE 802.3cz — 车载光以太网 Multi-Gig 标准（2023-03 发布）" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">IEEE · <code>IEEE 802.3cz</code> · <span class='std-status'>已发布（task force 维护修订中）</span> · 2026-06-09 · 1级信源 🔥</div>
+    <h3><a href="https://www.ieee802.org/3/cz/index.html" target="_blank">IEEE 802.3cz — 车载光以太网 Multi-Gig 标准（2023-03 发布）</a></h3>
+    <p style="color:#ccc;">IEEE 802.3cz 于 2023-03-30 经 IEEE-SA 标准委员会批准发布，定义车载光以太网 Multi-Gig 接口（2.5/5/10/25 Gb/s），使用 980nm 多模光纤，目标车载 zonal 架构 + 高速摄像头/激光雷达数据回传。本周 task force 主页维护，无新草案。</p><p style="color:#8b949e;font-size:13px;">💡 802.3cz 是**车载光以太网首个落地标准**——对中国车载产业链影响重大：华为、速腾、禾赛、比亚迪等 Tier1 都在等 802.3cz 成熟后切入光 PHY 自研；本周虽无新草案，但 task force 维护节奏（季度会议）意味着 2026 H2 可能有 amendment 修订噪声规格和温度范围。</p>
+    <div class="source">来源：IEEE · IEEE 802.3cz · 已发布（task force 维护修订中）</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/standards_items_01.jpg" alt="IEEE 802.3ch — Multi-Gig Automotive Ethernet PHY Task Force（铜缆）" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">IEEE · <code>IEEE 802.3ch</code> · <span class='std-status'>Task Force 维护期</span> · 2026-06-09 · 1级信源</div>
+    <h3><a href="https://www.ieee802.org/3/ch/index.html" target="_blank">IEEE 802.3ch — Multi-Gig Automotive Ethernet PHY Task Force（铜缆）</a></h3>
+    <p style="color:#ccc;">IEEE 802.3ch 是车载以太网 2.5/5/10 Gb/s 铜缆 PHY 标准，已成熟。当前 task force 处于维护修订期，处理连接器兼容性、EMC 修订申请。</p><p style="color:#8b949e;font-size:13px;">💡 802.3ch 是当前车载以太网**事实标准**（vs 802.3cz 是光版未来）。本周维护期意味着 TC9 / OPEN Alliance 的合规测试在持续迭代；车载厂商选型时 802.3ch（铜缆）是 2026 主流量产方案，802.3cz（光）是 2027+ 选型。本期关注 802.3ch → 802.3cy → 802.3cz 演进节奏。</p>
+    <div class="source">来源：IEEE · IEEE 802.3ch · Task Force 维护期</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/standards_items_02.jpg" alt="IEEE 802.3cy — Greater than 10 Gb/s Electrical Automotive Ethernet Task Force" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">IEEE · <code>IEEE 802.3cy</code> · <span class='std-status'>Task Force 维护期</span> · 2026-06-09 · 1级信源</div>
+    <h3><a href="https://www.ieee802.org/3/cy/index.html" target="_blank">IEEE 802.3cy — Greater than 10 Gb/s Electrical Automotive Ethernet Task Force</a></h3>
+    <p style="color:#ccc;">IEEE 802.3cy 是车载以太网 >10 Gb/s 电 PHY 标准，approved 2022-07-14，当前处于 task force 维护修订期，处理 25Gb/s+ 铜缆高速链路。</p><p style="color:#8b949e;font-size:13px;">💡 802.3cy 是**车载 25G+ 铜缆方案**的官方标准——但铜缆在 25G 速率 + 长距离（>5m）+ 高温（105°C）下信号完整性急剧恶化，这正是 802.3cz 光 PHY 存在的理由。本期看 **802.3cy 与 802.3cz 的并行推进**：前者是过渡，后者是终极方案，对国产芯片厂商（华为、Marvell、ADI）选型影响重大。</p>
+    <div class="source">来源：IEEE · IEEE 802.3cy · Task Force 维护期</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://ZenHatesCoding.github.io/vehicle-optical-comm-reports/images/standards_items_03.jpg" alt="OPEN Alliance — 车载以太网 PHY 规范 SIG（TC1/TC8/TC10/TC12）" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block;" loading="lazy" onerror="this.style.display='none'" />
+  <div class="card-body">
+    <div class="card-meta">OPEN Alliance · <code>100BASE-T1 / 1000BASE-T1 / TC1/TC8/TC10/TC12</code> · <span class='std-status'>持续维护</span> · 2026-06-09 · 2级信源</div>
+    <h3><a href="https://opensig.org" target="_blank">OPEN Alliance — 车载以太网 PHY 规范 SIG（TC1/TC8/TC10/TC12）</a></h3>
+    <p style="color:#ccc;">OPEN Alliance SIG 是车载以太网 100BASE-T1 / 1000BASE-T1 PHY 规范的工业联盟，TC1（PHY）TC8（EMC）TC10（睡眠/唤醒）TC12（信道）TC15（PoDL/供电）等技术委员会持续更新 PHY 规范、连接器、合规测试流程。</p><p style="color:#8b949e;font-size:13px;">💡 OPEN Alliance 是 IEEE 802.3 标准的**产业落地接口**——它把 IEEE PHY 标准细化为可量产的合规测试规范和连接器标准。OPEN Alliance 当前在讨论**多 G 级汽车光 PHY 规范**（呼应 IEEE 802.3cz），预计 2026 H2 会有新 TC（TC15/TC20）成立。SIG 成员含 Marvell、ADI、TI、NXP、华为，是车载光 PHY 路线图的关键观察对象。</p>
+    <div class="source">来源：OPEN Alliance · 100BASE-T1 / 1000BASE-T1 / TC1/TC8/TC10/TC12 · 持续维护</div>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>🔬 专利跟踪</h2>
+
+</section>
+
+<footer>
+  <p>Generated by Hermes Agent · Vehicle Optical Communication Daily</p>
+  <p>https://github.com/ZenHatesCoding/vehicle-optical-comm-reports</p>
+  <p>2026-06-09 11:24</p>
+</footer>
+</div>
+</body>
+</html>
